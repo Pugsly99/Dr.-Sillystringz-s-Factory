@@ -15,13 +15,6 @@
 else
 {
   <h4>Engineers the Machine is serviced by:</h4>
-  @* <ul>
-    @foreach(var join in Model.Parents)
-    {
-      <li>@join.Parent.ParentName</li>
-    }
-  </ul> *@
-}
 
   <ul>
   @foreach(var join in Model.JoinEntries)
@@ -34,6 +27,8 @@ else
     }
   }
   </ul>
+}
+
   
 <p>@Html.ActionLink("Add a engineer", "AddEngineer", new { id = Model.MachineId })</p>
 <p>@Html.ActionLink("Back to list", "Index")</p>
