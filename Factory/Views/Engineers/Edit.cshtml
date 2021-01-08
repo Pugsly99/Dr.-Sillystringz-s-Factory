@@ -8,7 +8,7 @@
 @using (Html.BeginForm())
 {
     @Html.HiddenFor(model => model.EngineerId)
-    @* @Html.HiddenFor(model => model.StartDate) *@
+    @Html.HiddenFor(model => model.StartDate)
 
     @Html.LabelFor(model => model.EngineerName)
     @Html.EditorFor(model => model.EngineerName)
@@ -16,8 +16,8 @@
     @* @Html.DisplayNameFor(model => model.StartDate) 
     @Html.EditorFor(model => model.StartDate) *@
     
-    @Html.LabelFor(model => model.StartDate)
-    @Html.EditorFor(model => model.StartDate)
+    @* @Html.LabelFor(model => model.StartDate)
+    @Html.EditorFor(model => model.StartDate) *@
   
 
     <input type="submit" value="Edit" />
