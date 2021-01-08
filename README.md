@@ -1,8 +1,8 @@
-# **Template.Solution**
-Project Initiated: 2021-01-04<br>
-Updated: 2021-01-04f
+# **Dr. Sillystringz Factory.Solution**
+Project Initiated: 2021-01-08<br>
+Updated: 2021-01-08f
 
-## **Project Description**
+## **Factory Description**
 
 This project was created to help us further our knowledge with using join statements to help connect tables in our database. We also were able to get additional practice with using many to many relationships with our tables in our datababse. This application is a univeristy registrar that helps keep track of students and courses. Here is a breakdown of the features it has, their functionality, and their benefits.
 
@@ -230,14 +230,14 @@ There are no known bugs
 * dotnet script, REPL
   
 ## **Authors and Contributors**
-Authored by: YOUR NAME
+Authored by: Ryland Adams
 
 ## **Contact**
-YOUR NAME AND EMAIL
+Ryland Adams - rylandadams@yahoo.com
 
 ## **License**
 
 GPLv3
 
-Copyright © 2020 YOUR NAME
+Copyright © 2020 Ryland Adams
 
