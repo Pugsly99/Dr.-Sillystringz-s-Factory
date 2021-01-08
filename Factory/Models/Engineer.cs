@@ -12,7 +12,7 @@ namespace Factory.Models
             this.JoinEntries = new HashSet<EngineerMachine>(); 
         }
         [DisplayName("Start Date")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd hh:mm tt}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime StartDate { get; set; }
         public int EngineerId { get; set; }
 
