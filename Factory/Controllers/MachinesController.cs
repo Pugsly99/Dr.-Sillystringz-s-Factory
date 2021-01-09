@@ -83,26 +83,7 @@ namespace Factory.Controllers
       }
         _db.SaveChanges();
         return RedirectToAction("Index");
-    }
-
-    //   [HttpPost]
-    // public ActionResult AddCourse(Student student, int CourseId)
-    // {
-    //   if (CourseId != 0)
-    //   // Check if CourseId is valid
-    //   {
-    //     var returnedJoin = _db.CourseStudent.Any(join => join.StudentId == student.StudentId && join.CourseId == CourseId);
-    //       Console.WriteLine(returnedJoin);
-    //     // Check if "Any" of this relationship exists, returns a bool
-    //     if (!returnedJoin) 
-    //     {
-    //     // if the returnedJoin for that relationship if false, then add the relationship
-    //       _db.CourseStudent.Add(new CourseStudent() { CourseId = CourseId, StudentId = student.StudentId });
-    //     }
-    //   }
-    //   _db.SaveChanges();
-    //   return RedirectToAction("Index");
-    // }   
+    }  
 
     public ActionResult Delete(int id)
     {
